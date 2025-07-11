@@ -1,0 +1,20 @@
+.tag {
+    display: inline-block;
+    border: 2px solid blue;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    -webkit-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+    margin-bottom: 2rem;
+}
+.sectionheading {
+    position: relative;
+}
+.shape {
+    position: absolute;
+    background-color: rgb(255, 166, 0);
+    width: 10rem;
+    height: 0.4rem;
+    left: 21rem;
+    bottom: 5px;
+}

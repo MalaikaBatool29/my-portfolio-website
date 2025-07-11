@@ -1,0 +1,39 @@
+.cards {
+    border: 2px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+    width: 500px;
+    transition: all ease 0.35;
+    background-color: white;
+}
+
+.cards h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cards-title {
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: -1px;
+}
+
+.cards p {
+    font-size: 1.4rem;
+}
+
+.cards-icon {
+    font-size: 2.rem;
+    background-color: rgb(254, 226, 16);
+    border-radius: 19rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cards:hover {
+   box-shadow: 7px 7px 0 0 black;
+}

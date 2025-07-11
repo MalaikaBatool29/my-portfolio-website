@@ -1,0 +1,46 @@
+.herosection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 4rem;
+     background-color:#fef7e9;
+}
+
+.headingcss {
+    font-size: 4.5rem;
+    letter-spacing: -2px;
+}
+
+.herosection-firstsection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.herosection-firstsection p {
+    font-size: 1.4rem;
+    width: 90%;
+    color: grey;
+}
+.herosection-firstsection button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(255, 153, 0);
+    font-weight: bold;
+    width: 20%;
+}
+.herosection-firstsection button:hover {
+    background-color: black;
+    color: white;
+}
+.herosection-imagediv {
+    border: 3px solid black;
+    position: relative;
+
+}
+
+.herosection-imagestyling {
+    border: 3px solid black;
+    padding: 1rem;
+}

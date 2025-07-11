@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  
+  border-bottom: 2px solid black;
+}
+
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+
+}
+
+.header-items li {
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-items li:hover {
+  background-color: rgb(255, 208, 0);
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+.header-button{
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background-color: rgb(255, 208, 0);
+    font-weight: bold;
+}
+
+
+.header-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.header-item-username  {
+  font-weight: 700;
+  font-family:"Dancing Script", cursive ;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.header-item-icon .icon  {
+margin-right: 0.5rem;
+font-size: 2rem;
+}
