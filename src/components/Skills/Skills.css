@@ -1,0 +1,85 @@
+.skills-section {
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 4rem;
+}
+.skills-section-top {
+    width:65%;  
+}
+.headingcss {
+  font-size: 63px; 
+  margin-bottom: 20px;
+}
+.skills-section-top p {
+    font-size: 1.3rem;
+    color: rgb(64, 64, 64);
+}
+.skills-section-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.skills-section-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 3;
+}
+.skills-section-bottom-cards {
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: start;
+}
+.experience-data {
+border-top: 2px solid black;
+display: flex;
+justify-content: space-between;
+align-items: start;
+gap: 2rem;
+padding: 0.1rem;
+margin-top: 1rem;
+padding-top: 1rem;
+}
+.position-location {
+    display: flex;
+    flex-direction: column;
+}
+.skills-section-right {
+    flex: 1;
+}
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 2rem;
+    flex-direction: column;
+}
+.experience-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3rem;
+}
+.experience-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.skills-section-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 3px solid rgb(125, 125, 125);
+    margin-top: 2rem;
+}   
+.skills-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}

@@ -37,3 +37,74 @@
 .cards:hover {
    box-shadow: 7px 7px 0 0 black;
 }
+
+.skills-card {
+    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 4rem;
+    padding: 1.1rem;
+    width: 290px;
+    transition: all ease 0.35s;
+}
+.skills-card:hover {
+    box-shadow: 7px 7px 0 0 black;
+}
+.skills-icon {
+    background-color: rgb(79, 79, 218);
+    border-radius: 100%;
+    font-size: 1.2rem;
+    padding: 1rem 1.2rem;
+    text-align: center;
+} 
+
+.image-cards {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 6px;
+  width: 300px;
+  box-sizing: border-box;
+  background: #fff;
+  transition: 0.3 ease;
+}
+.image-cards:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.project-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid black;
+}
+
+.project-card-text {
+  padding: 1rem;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.project-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-card-subtitle {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
