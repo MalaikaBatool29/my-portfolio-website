@@ -1,45 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react';
+import './Projects.css'
 import SectionHeading from '../SectionHeading/SectionHeading';
-import img1 from '../../assets/images/image1.avif';
-import img2 from '../../assets/images/image2.jpeg';
-import img3 from '../../assets/images/image3.jpg';
-import img4 from '../../assets/images/image4.gif';
-import img5 from '../../assets/images/image5.webp';
-import img6 from '../../assets/images/image6.png';
+import img1 from '../../assets/images/calculator.jpeg';
+import img2 from '../../assets/images/atms.jpeg';
+import img3 from '../../assets/images/counter.png';
+import img4 from '../../assets/images/number.webp';
+import img5 from '../../assets/images/currency.jpg';
+import img6 from '../../assets/images/todo.png';
 import ImageCard from '../Cards/ImageCard';
 
 
 const Project = () => {
+const [modalOpen, setModalOpen] =useState(false);
+const [imageAvailable, setImageAvailable] = useState(null);
+
+const handleClick = (image) => {
+  setModalOpen(true);
+  setImageAvailable(image);
+};
+
   const imageData = [ 
     {
  image: img1,
- title: "Landing page",
- subtitle: "Web/WordPress",
+ title: "CALCULATOR",
+ subtitle: "A basic arithmetic calculator built with JavaScript for real-time calculations.",
     },
   {
  image: img2,
- title: "Landing page",
- subtitle: "Web/WordPress",
+ title: "ATM STIMULATOR",
+ subtitle: "ATM simulation with basic transactions in TypeScript..",
     },
       {
  image: img3,
- title: "Landing page",
- subtitle: "Web/WordPress",
+ title: "WORD COUNTER",
+ subtitle: "Counts words and characters from user input — useful for writers and students",
     },
       {
  image: img4,
- title: "Landing page",
- subtitle: "Web/WordPress",
+ title: "NUMBER GUESSING GAME",
+ subtitle: "A fun game built in JavaScript where users guess a random number within a set range.",
     },
       {
  image: img5,
- title: "Landing page",
- subtitle: "Web/WordPress",
+ title: "CURRENCY CONVERTER",
+ subtitle: "Converts between currencies using static exchange rates with clean UI.",
     },
       {
  image: img6,
- title: "Landing page",
- subtitle: "Web/WordPress",
+ title: "To-Do LIST",
+ subtitle: "A React-based app to add, complete, and remove daily tasks with ease.",
     },
 
 ];
@@ -48,17 +57,15 @@ const Project = () => {
     return (
 
     <div className='project-section'>
-        <div className='project-section-top'>
+        
             <SectionHeading
 sectionheading={"Latest Project"}
 tag={"Portfolio"}
 headingcss="headingcss"
-shapeVisible={true}
 
                 />
- </div>
 <div className='project-section-bottom'>
-    <div className='project-section-bottom-cards'>
+    
         {imageData.map((item, index) => (
 
         <ImageCard
@@ -66,12 +73,18 @@ shapeVisible={true}
         imageSrc={item.image}
         imgTitle={item.title}
         imgSubtitle={item.subtitle}
+        handleClick={()=> handleClick(item.image)}
         />
     )) }
 
-    </div>
 </div>
+
+{modalOpen && (
+  <div className='modalopen' onClick={()=> setModalOpen(false)}>
+    <img src={imageAvailable} />
     </div>
+)}
+</div>
   );
 };
 

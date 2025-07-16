@@ -9,13 +9,19 @@ const HeroSection = () => {
         <div className='herosection-firstsection'>
 
         <SectionHeading 
-        sectionheading={"We Have Design Experience"}
+        sectionheading={"Hi, I'm Malaika Batool"}
+        
         tag={"Hello."}
         headingcss= "headingcss"
         />
-
+<div className="developer-title">
+  <h1 className="frontend-heading">Frontend Developer</h1>
+  <span className="skills">React | TypeScript | JavaScript</span>
+</div>
         <p>
-            I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
+            I'm a passionate Frontend Developer with a Master's degree in Finance.  
+My journey began in the world of numbers, but my curiosity for technology led me to frontend development.  
+Now I love crafting clean, user-friendly, and responsive web applications.
         </p>
         <button>Let's Talk</button>
         </div>

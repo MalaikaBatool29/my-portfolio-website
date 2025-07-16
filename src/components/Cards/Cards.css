@@ -1,12 +1,12 @@
 .cards {
     border: 2px solid black;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
     gap: 1rem;
-    width: 500px;
+    width:350px;
     transition: all ease 0.35;
     background-color: white;
 }
@@ -14,6 +14,7 @@
 .cards h1 {
     font-weight: bold;
     font-size: 3rem;
+    color: rgb(255, 153, 0);;
 }
 
 .cards-title {
@@ -28,7 +29,7 @@
 
 .cards-icon {
     font-size: 2.rem;
-    background-color: rgb(254, 226, 16);
+    background-color:rgb(255, 153, 0); ;
     border-radius: 19rem;
     padding: 1rem;
     text-align: center;
@@ -39,63 +40,70 @@
 }
 
 .skills-card {
-    border: 2px solid black;
+  border: 2px solid black;
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 4rem;
+    gap: 6rem;
     padding: 1.1rem;
-    width: 290px;
+    width: 320px;
+    height: 90px;
     transition: all ease 0.35s;
 }
 .skills-card:hover {
-    box-shadow: 7px 7px 0 0 black;
+    box-shadow: 5px 5px 0 0 black;
 }
 .skills-icon {
-    background-color: rgb(79, 79, 218);
+    background-color:rgb(255, 153, 0); ;
     border-radius: 100%;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     padding: 1rem 1.2rem;
     text-align: center;
 } 
-
 .image-cards {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
   border: 2px solid black;
-  border-radius: 6px;
-  width: 300px;
-  box-sizing: border-box;
+  width: 350px;
+  height: 420px;
+  overflow: hidden;
   background: #fff;
-  transition: 0.3 ease;
 }
 .image-cards:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 0 0 rgba(14, 13, 13, 0.1);
 }
-.project-card-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-bottom: 2px solid black;
-}
-
-.project-card-text {
+.projectcards-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1rem;
-  text-align: center;
-  background-color: #fafafa;
-}
+  flex: 1;
 
-.project-card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
 }
-
-.project-card-subtitle {
-  font-size: 0.95rem;
-  color: #555;
+.projectcard-image {
+  width: 100%;
+  height: 290px;
+  border: 2px solid black;
 }
-
+.projectcard-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.projectcard-icon{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgb(255, 153, 0);
+  padding: 1rem;
+  font-size: 1.6rem;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 

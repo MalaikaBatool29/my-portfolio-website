@@ -13,45 +13,45 @@ const Services = () => {
   const cardsData = [
     {
 sno : "01",
-cardTitle: "Web Design",
-cardDescription : "Designing clean, functional, and engaging websites that deliver seamless user experiences. Skilled in HTML, CSS, JavaScript, and responsive design",
+cardTitle: "Responsive Website Design",
+cardDescription : "I can create mobile-friendly and responsive websites using HTML, CSS, and JavaScript that look great on all devices",
 cardIcon : <CiMobile2 />
 
 
     },
     {
 sno : "02",
-cardTitle: "Web Development",
-cardDescription : "Passionate about coding clean and efficient web solutions. Proficient in creating dynamic, responsive websites using modern frameworks like React, Node.js, and Laravel.",
+cardTitle: "React JS Web Applications",
+cardDescription : "I build dynamic and interactive frontend applications using React JS and Typescript with a clean and reusable component structure.",
 cardIcon : <GrPersonalComputer />
 
 
     },
     {
 sno : "03",
-cardTitle: "SEO Marketing",
-cardDescription : "Results-driven SEO marketer with expertise in on-page, off-page, and technical SEO. Skilled in boosting website rankings, traffic, and visibility through data-driven strategies.",
+cardTitle: "Landing Page Development",
+cardDescription : "Need a simple, beautiful one-page website? I can build modern, fast-loading landing pages for your product or business.",
 cardIcon : <FiTriangle />
 
 
     } ,
     {
 sno : "04",
-cardTitle: "Mern Stack development",
-cardDescription : "Full-stack developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js). Skilled in building dynamic, scalable, and high-performance web applications from scratch.",
+cardTitle: "Custom JavaScript Tools",
+cardDescription : "I develop small interactive tools like calculators, to-do lists, and form validations using JavaScript or TypeScript.",
 cardIcon : <RiLayout2Line />
 
     }, 
     {
 sno : "05",
-cardTitle: "Data Analyst",
-cardDescription : "Detail-oriented data analyst skilled in collecting, cleaning, and interpreting large datasets to drive business decisions. Proficient in tools like Excel, SQL, Python, and Power BI.",
+cardTitle: "Website Fixes & Edits",
+cardDescription : "Have an existing site? I can help fix layout issues, add new sections, or make style and responsiveness improvements .",
 cardIcon : <MdOutlineVerticalDistribute />
     },
     {
 sno : "06",
-cardTitle: "Generative AI Engineer",
-cardDescription : 'Passionate Generative AI Engineer skilled in building intelligent systems using deep learning and transformer models',
+cardTitle: "Portfolio or Resume Website",
+cardDescription : 'I can design and build personal portfolio websites for job seekers, students, and freelancers',
 cardIcon : <TfiWorld />
     },
   ] ;
@@ -65,7 +65,6 @@ return (
 tag={'Services'}
 sectionheading = {"Services I Offer"}
 headingcss={"headingcss"}
-shapeVisible={true}
 
 />
 

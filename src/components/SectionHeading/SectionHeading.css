@@ -6,9 +6,11 @@
     -webkit-transform: rotate(-35deg);
     transform: rotate(-35deg);
     margin-bottom: 2rem;
+    
 }
 .sectionheading {
     position: relative;
+    
 }
 .shape {
     position: absolute;
@@ -18,3 +20,4 @@
     left: 21rem;
     bottom: 5px;
 }
+    
